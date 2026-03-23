@@ -1,0 +1,67 @@
+h1 {
+    background-color: rebeccapurple;
+    padding: 5px;
+    font-family: cursive;
+    text-align: center;
+}
+
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    background-color: rgb(255, 0, 157);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+a:link {
+    color: rgb(0, 255, 13);
+    border-color: blue;
+}
+
+a:visited {
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+a:active {
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+}
+
+/* Pseudo-elemento */
+p::first-line {
+    color: blue;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: chocolate;
+    font-size: xx-large;
+}
+
+h3::before {
+    content: url(/assets/img/memeM.jpg);
+}
+
+h3::after {
+    content: url(/assets/img/memeM.jpg);
+}
+
+::marker {
+    color: forestgreen;
+}
+
+::selection {
+    color: red;
+    background-color: cornflowerblue;
+}
